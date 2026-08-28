@@ -405,6 +405,47 @@ p { margin: 0 0 18px; }
   font-size: clamp(1.8rem, 3vw, 2.4rem);
 }
 
+/* More compact Running & Triathlon page */
+
+.hobby-hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  margin-bottom: 18px;
+}
+
+.hobby-hero {
+  margin-bottom: 42px;
+}
+
+.hobby-intro {
+  font-size: clamp(0.95rem, 1.5vw, 1.12rem);
+}
+
+.race-panel {
+  padding: clamp(22px, 3vw, 32px);
+}
+
+.race-panel h2 {
+  margin-bottom: 14px;
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+}
+
+.race-panel .race-note {
+  margin-bottom: 14px;
+}
+
+.race-list li {
+  padding: 10px 0;
+  line-height: 1.35;
+}
+
+.race-list strong {
+  font-size: 0.94rem;
+}
+
+.race-list span {
+  font-size: 0.86rem;
+}
+
 .education-list {
   font-size: clamp(0.95rem, 1.3vw, 1.18rem);
 }
