@@ -452,7 +452,9 @@ p {
   color: var(--muted);
   font-size: 0.86rem;
 }
-
+.photo-gallery img.photo-align-top {
+  object-position: center top;
+}
 /* Tablet and mobile */
 
 @media (max-width: 780px) {
