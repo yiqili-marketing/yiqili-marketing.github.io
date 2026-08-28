@@ -202,8 +202,9 @@ p {
 
 .intro .contact-row {
   display: flex;
+  width: 100%;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .contact-button {
@@ -453,7 +454,7 @@ p {
   font-size: 0.86rem;
 }
 .photo-gallery img.photo-align-top {
-  object-position: center top;
+  object-position: center 20%;
 }
 /* Tablet and mobile */
 
